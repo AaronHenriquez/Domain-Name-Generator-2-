@@ -26,7 +26,7 @@ window.onload = function() {
           let li = document.createElement("li");
           li.innerHTML = pronoun[i] + adj[j] + noun[k] + topLevelDomain[l];
           // appenChild agrega los elementos a la lista
-          lista.appendChild(li);
+          lista.appendChild(li).classList.add("list-group-item");
         }
       }
     }
